@@ -21,7 +21,7 @@ class FormBuilder
 
     }
 
-    public function label($textLabel, $for = '', $class = 'container')
+    public function label($textLabel, $for = '', $class = 'container', $name='')
     {
 
         return '<label for="'.$for.'" class="'.$class.'">'.$textLabel.'</label>';
